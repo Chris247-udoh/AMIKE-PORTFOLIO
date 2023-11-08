@@ -9,7 +9,6 @@ header {
   background-color: #1f2235;
   padding: 28px 98px;
   font-size: 20px;
-  
 }
 
 .horizontal {
@@ -18,7 +17,6 @@ header {
   align-items: center;
   color: #fff;
 }
-
 
 .nav-item {
   list-style: none;
@@ -38,10 +36,9 @@ header {
   justify-content: flex-start;
 }
 
-.icon:hover{
-  background-color: #ff4a57;
+.icon:hover {
+background-color: #ff4a57;
 }
-
 .icon {
   margin-right: 18px;
   background-color: #24263b;
@@ -80,173 +77,295 @@ p {
 
 /* SERVICE SECTION FOR NAVIGATION */
 
-h3{
+h3 {
   color: red;
   justify-content: center;
- margin-left: 600px;
+  margin-left: 600px;
 }
 
-#dash{
+#dash {
   color: red;
   margin-left: 620px;
   justify-content: center;
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
-
-#serv{
-  background-color: #1F2235;
+#serv {
+  background-color: #1f2235;
   color: #fff;
 }
-.service{
+.service {
   margin-left: 500px;
- 
 }
 
-.Lorem{ 
- font-size: medium;
- margin-left: 400px;
+.Lorem {
+  font-size: medium;
+  margin-left: 400px;
 }
 
-#text{
+#text {
   font-size: 14px;
   margin-top: -1px;
- padding-left: 80px;
+  padding-left: 80px;
 }
 
-.service-card{
+.service-card {
   height: 300px;
   width: 300px;
-   background-color:#23263A;
-   margin: 6px;
-   border-radius: 16px;
-   justify-content: center;
-   padding:0 68px;
-
+  background-color: #23263a;
+  margin: 6px;
+  border-radius: 16px;
+  justify-content: center;
+  padding: 0 68px;
 }
 
 .service-card:hover {
   background-color: #ff4a57;
 }
 
-.service-container{
+.service-container {
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 18px;
   padding: 38px 98px;
-  
 }
 
-.git{
+.git {
   size: 200px;
   /* margin-bottom:300px; */
   padding-top: -50px;
   color: red;
 }
 
-#mes{
+#mes {
   font-size: 21px;
-  
 }
 
-#github{
-font-size: 40px;
-padding-top: 30px;
-
-}
-
-#service-text{
-  font-size: 20px;
-  margin-top: 30px;
-  
-}
-
-
-
-#webdesign-text{
-  font-size: 20px;
- padding-top: 25px;  
-  padding-right: 20px;
-  margin-bottom: 15px;
- 
-  
-}
-
-#webdesign-page{
-font-size: 20px;
-padding-top: 15px;
-
-}
-
-#fa-box{
- margin-top: 30px;
- font-size: 40px;
-  
-}
-
-#webdesign-page{
-  font-size: 20px;
-  margin-top: 5px;
-}
-#videoicon{
+#github {
   font-size: 40px;
   padding-top: 30px;
 }
 
-#video-editpage{
+#service-text {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#webdesign-text {
+  font-size: 20px;
+  padding-top: 25px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+}
+
+#webdesign-page {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+#fa-box {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+#webdesign-page {
+  font-size: 20px;
+  margin-top: 5px;
+}
+#videoicon {
+  font-size: 40px;
+  padding-top: 30px;
+}
+
+#video-editpage {
   font-size: 20px;
 }
 
-#videotext{
+#videotext {
   font-size: 20px;
   padding-top: -100px;
   margin-top: 30px;
 }
 
-#cameraicon{
+#cameraicon {
   font-size: 40px;
   padding-top: 40px;
 }
 
-#camera{
+#camera {
   font-size: 25px;
 }
 
-#camera-text{
+#camera-text {
   font-size: 20px;
-justify-content: center;
-margin-top: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-#apple-icon{
+#apple-icon {
   font-size: 60px;
   padding-top: 30px;
 }
 
-#apple-name{
+#apple-name {
   font-size: 20px;
-   margin-top: 10px;
-  
+  margin-top: 10px;
 }
 
-#apple-text{
+#apple-text {
   font-size: 20px;
-margin-top: 20px;
+  margin-top: 20px;
 }
 
-#yicon{
+#yicon {
   font-size: 50px;
   padding-top: 30px;
-
 }
 
-#seo{
+#seo {
   font-size: 20px;
 }
 
-#ytext{
+#ytext {
   font-size: 20px;
   /* padding-top: -30px; */
   margin-top: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* this is the about section styling begins here */
+
+#head-about {
+  background-color: #23263a;
+  color: white;
+  padding-top: 2px;
+}
+
+#about {
+  display: flex;
+}
+
+#first-text {
+  justify-content: center;
+  margin-left: 500px;
+  padding-top: 100px;
+}
+
+#first-lorem-1 {
+  justify-content: center;
+  margin-left: 400px;
+  font-size: 18px;
+}
+
+#first-lorem-2 {
+  justify-content: center;
+  margin-left: 500px;
+  font-size: 15px;
+}
+
+#there {
+  justify-content: center;
+  font-size: 30px;
+  padding-left: 250px;
+  padding-top: 60px;
+}
+
+#in-text {
+  font-size: 19px;
+  padding-left: 250px;
+  padding-top: -25px;
+}
+#nunc-text {
+  font-size: 19px;
+  padding-left: 250px;
+  padding-top: -25px;
+}
+.img {
+  padding-left: 100px;
+  padding-top: -100px;
+}
+
+#shift {
+  margin-left: -110px;
+}
+
+#name {
+  margin-left: 19%;
+  padding-top: 25px;
+  color: #ff4a57;
+  font-size: 20px;
+}
+#namee:hover{
+  color: #147204;
+}
+#namee {
+  padding-left: 139px;
+  font-size: 20px;
+  color:#DFDFDF;
+  margin-top:10px ;
+}
+
+#number {
+  margin-top: -45px;
+  padding-left: 400px;
+  margin-left: -0px;
+  color: #ff4a57;
+  font-size: 20px;
+}
+
+
+#digit:hover{
+  color: #147204;
+}
+#digit {
+  font-size: 20px;
+  padding-left: 400px;
+  color:#DFDFDF;
+  margin-top: -1px;
+  padding-top: 5px;
+}
+
+
+#Email {
+  color: #ff4a57;
+  margin-left: 140px;
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+#email:hover {
+  
+  color:#147204;
+}
+
+#email{
+  font-size: 20px;
+  padding-left: 140px;
+  margin-top: 1px;
+  color:#DFDFDF;
+  
+}
+
+#LinkedIn{
+  margin-top: -90px;
+ /* padding-left: -80px; */
+ margin-left:400px;
+ font-size: 15px;
+ color: #ff4a57;
+ margin-top: -40px;
+}
+#link-handle:hover {
+  color: #147204;
+}
+
+#link-handle{
+  font-size: 20px;
+  padding-left: 400px;
+  margin-top: -0.7px;
+  color:#DFDFDF;
 }
